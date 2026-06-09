@@ -3,8 +3,8 @@ import LoginButton from "./LoginBoton";
 export default function Navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg py-1 ">
-        <div className="container-fluid">
+      <nav className="navbar navbar-expand-lg py-1">
+        <div className="container-fluid mt-3">
           <a className="navbar-brand" href="#">
             <img src="/src/assets/logo-servi.png" alt="Logo ServiCompu" width="110" />
           </a>
