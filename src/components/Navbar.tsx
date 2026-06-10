@@ -3,10 +3,11 @@ import LoginButton from "./LoginBoton";
 export default function Navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg py-1 mb-2">
+      <nav className="navbar navbar-expand-lg py-1 ">
         <div className="container-fluid mt-3">
-          <a className="navbar-brand bg-black" href="#">
-            <img src="/src/assets/logo-servi.png" alt="Logo ServiCompu" width="110" />
+          <a className="navbar-brand" href="#">
+            {/* <img src="/src/assets/logo-servi.png" alt="Logo ServiCompu" width="110" /> */}
+            <span className="fw-semibold fs-2">CYBER</span>
           </a>
           <button
             className="navbar-toggler"

@@ -2,7 +2,7 @@ import "./styles/Hero.css";
 
 export default function Hero() {
     return (
-        <div className="hero-container d-flex col-12 align-items-center rounded-5">
+        <div className="hero-container d-flex col-12 align-items-center rounded-5 mt-4">
             <div className="hero-content d-flex flex-column col-6 rounded-4 p-4">
                 <h1 className="text-light mb-4 display-3 ms-5 fw-semibold">Computer & Tech </h1>
                 <p className="text-light ms-5 mb-3 text-break">Equipamiento tecnológico de alta gama y soporte especializado en unsolo lugar. Potencia la productividad de tu negocio.</p>

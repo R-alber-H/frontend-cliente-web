@@ -3,20 +3,11 @@ export default function LoginButton() {
   return (
     <button
       type="button"
-      // CLASES DE BOOTSTRAP:
-      // btn: Base del botón
-      // btn-outline-light: Texto blanco, borde blanco, fondo transparente.
-      //                   ¡Y ya hace automáticamente el hover a fondo blanco con texto negro!
-      // px-4 py-2: Un buen espaciado interno (padding) para que se vea premium
       className="btn btn-outline-dark px-3 py-2"
-      
-      // ESTILOS PERSONALIZADOS:
-      // Bootstrap por defecto usa bordes muy redondeados o muy cuadrados.
-      // Con esto aseguramos tus 10px exactos y una animación suave (transition).
       style={{
         borderRadius: '10px',
         transition: 'all 0.3s ease',
-        borderWidth: '1px' // Borde delgado como pediste
+        borderWidth: '1px' 
       }}
       
       onClick={() => console.log("Iniciar sesión...")}

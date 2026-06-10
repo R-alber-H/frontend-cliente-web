@@ -8,28 +8,28 @@ export default function Ofertas(){
                   image={laptop}
                   title="Laptop Gamer"
                   description="Potencia extrema para gaming y productividad."
-                  buttonText="Ver más"
+                  buttonText="Comprar Ahora"
                   buttonLink="/productos/laptop"
                 />
                 <Card
                   image={laptop}
                   title="Laptop Gamer"
                   description="Potencia extrema para gaming y productividad."
-                  buttonText="Ver más"
+                  buttonText="Comprar Ahora"
                   buttonLink="/productos/laptop"
                 />
                 <Card
                   image={laptop}
                   title="Laptop Gamer"
                   description="Potencia extrema para gaming y productividad."
-                  buttonText="Ver más"
+                  buttonText="Comprar Ahora"
                   buttonLink="/productos/laptop"
                 />
                 <Card
                   image={laptop}
                   title="Laptop Gamer"
                   description="Potencia extrema para gaming y productividad."
-                  buttonText="Ver más"
+                  buttonText="Comprar Ahora"
                   buttonLink="/productos/laptop"
                 />
               </div>

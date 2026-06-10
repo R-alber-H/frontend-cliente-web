@@ -1,7 +1,7 @@
 .hero-container {
-  min-height: 80vh;
+  min-height: 70vh;
   background:
-    radial-gradient(
+    /* radial-gradient(
       circle at 80% 30%,
       rgba(120, 8, 20, 0.6) 0%,
       transparent 45%
@@ -16,7 +16,8 @@
       #000000 0%,
       #050505 50%,
       #0b0b0b 100%
-    );
+    ); */
+    linear-gradient(135deg, #041938, #1c5098)
 }
 
 .hero-content {

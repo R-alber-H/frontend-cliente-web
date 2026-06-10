@@ -4,6 +4,8 @@ import Hero from "../components/Hero";
 import Card from "../components/Card";
 import laptop from "../assets/laptop_1.png";
 import Ofertas from "../components/Ofertas";
+import Categorias from "../components/Categorias";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
         <button className="btn btn-primary">Ver Productos</button>
       </div>
       <Ofertas/>
+      <Categorias/>
+      <Footer/>
     </div>
   )
 }
