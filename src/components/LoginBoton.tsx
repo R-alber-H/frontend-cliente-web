@@ -8,7 +8,7 @@ export default function LoginButton() {
       // btn-outline-light: Texto blanco, borde blanco, fondo transparente.
       //                   ¡Y ya hace automáticamente el hover a fondo blanco con texto negro!
       // px-4 py-2: Un buen espaciado interno (padding) para que se vea premium
-      className="btn btn-outline-light px-2 py-1"
+      className="btn btn-outline-dark px-3 py-2"
       
       // ESTILOS PERSONALIZADOS:
       // Bootstrap por defecto usa bordes muy redondeados o muy cuadrados.

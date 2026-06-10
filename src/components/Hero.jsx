@@ -1,17 +1,20 @@
+import "./styles/Hero.css";
 
 export default function Hero() {
     return (
-        <div className='d-flex col-12 align-items-center' style={{ minHeight: '70vh' }}>
-            <div className='d-flex flex-column col-8'>
-                <h1 className="text-light mb-4 display-4 ms-4 fw-normal">Todo lo que tu equipo necesita</h1>
-                <p className="text-light mb-2 ms-4 fs-5">Equipamiento tecnológico de alta gama y soporte especializado en un solo lugar. Potencia la productividad de tu negocio.</p>
-                <p className=" mb-4 ms-4 text-warning fw-semibold">Garantía certificada y atención personalizada para empresas y profesionales. </p>
-
-                <button className="btn btn-danger btn-sm align-self-start ms-4 px-4 py-2 fs-6 shadow">Registrate ahora</button>
+        <div className="hero-container d-flex col-12 align-items-center rounded-5">
+            <div className="hero-content d-flex flex-column col-6 rounded-4 p-4">
+                <h1 className="text-light mb-4 display-3 ms-5 fw-semibold">Computer & Tech </h1>
+                <p className="text-light ms-5 mb-3 text-break">Equipamiento tecnológico de alta gama y soporte especializado en unsolo lugar. Potencia la productividad de tu negocio.</p>
+                <button className="btn btn-danger btn-sm align-self-start ms-5 px-4 py-2 fs-6 shadow">Registrate ahora</button>
             </div>
-            <div className=' col-4'>
-                <img src="/src/assets/laptop_1.png" alt="Logo ServiCompu" width="100%" />
+            <div className="col-6 d-flex justify-content-center">
+                <img
+                    src="/src/assets/laptop-2.png"
+                    alt="Laptop Gamer"
+                    width="80%"
+                />
             </div>
         </div>
-    )
+    );
 }
