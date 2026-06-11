@@ -1,11 +1,11 @@
 import Card from "../components/Card";
 import laptop from "../assets/laptop_1.png";
 
-export default function Ofertas(){
+export default function Accesorios(){
     return(
         <div>
-          <div className="mt-4 d-flex flex-row justify-content-between">
-        <h3>Productos de Oferta </h3>
+          <div className="mt-5 d-flex flex-row justify-content-between">
+        <h3>Accesorios para PC </h3>
         <button className="btn btn-primary">Ver Productos</button>
       </div>
           <div className="d-flex flex-right justify-content-evenly mt-3">
