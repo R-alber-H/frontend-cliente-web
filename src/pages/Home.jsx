@@ -6,6 +6,7 @@ import laptop from "../assets/laptop_1.png";
 import Ofertas from "../components/Ofertas";
 import Categorias from "../components/Categorias";
 import Footer from "../components/Footer";
+import Accesorios from "../components/Accesorios";
 
 export default function Home() {
   return (
@@ -14,12 +15,9 @@ export default function Home() {
       <Navbar />
       <Hero />
       {/* </div> */}
-      <div className="mt-4 d-flex flex-row justify-content-between">
-        <h2>Productos de Oferta </h2>
-        <button className="btn btn-primary">Ver Productos</button>
-      </div>
       <Ofertas/>
-      <Categorias/>
+      <Accesorios/>
+       <Categorias/>
       <Footer/>
     </div>
   )
